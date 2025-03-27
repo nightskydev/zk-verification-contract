@@ -9,7 +9,8 @@
         "setup": "./scripts/circuits.sh"
     },
     "dependencies": {
-        "@project-serum/anchor": "0.24.1",
+        "@project-serum/anchor": "^0.26.0",
+        "@solana/web3.js": "^1.98.0",
         "@types/chalk": "^2.2.0",
         "@types/clui": "^0.3.1",
         "chalk-animation": "^2.0.3",
@@ -17,10 +18,11 @@
         "circomlibjs": "^0.1.7",
         "clui": "^0.3.6",
         "enquirer": "^2.3.6",
-        "ffjavascript": "^0.2.57",
+        "ffjavascript": "^0.3.1",
         "figlet": "^1.5.2",
         "maci-crypto": "^1.1.2",
-        "snarkjs": "^0.6.7"
+        "path": "^0.12.7",
+        "snarkjs": "^0.7.5"
     },
     "devDependencies": {
         "@types/chai": "^4.3.0",
